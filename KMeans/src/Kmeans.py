@@ -1,10 +1,10 @@
 #################################################
 # kmeans: k-means cluster
-# Author : zouxy
-# Date   : 2013-12-25
-# HomePage : http://blog.csdn.net/zouxy09
-# Email  : zouxy09@qq.com
-#################################################
+# Author : August
+# Date   : 2017-8-11
+# HomePage : http://blog.csdn.net/redhatforyou
+# Email  : 2980159638@qq.com
+#################################################  
 
 from numpy import *
 import time
