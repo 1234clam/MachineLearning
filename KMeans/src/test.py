@@ -16,7 +16,7 @@ from src.Kmeans import kmeans, showCluster
 
 print("step 1: load data...")
 dataSet = []
-fileIn = open('../data/testSet.txt')
+fileIn = open('../data/Iris.txt')
 #read each line in the file
 for line in fileIn.readlines():
     linedata = []
@@ -24,12 +24,10 @@ for line in fileIn.readlines():
     for data in lineArr:
         linedata.append(float(data));
     dataSet.append(linedata)
-    #print(dataSet)
 
-## step 2: clustering...  
 print("step 2: clustering...")
 dataSet = mat(dataSet)
-k = 4
+k = 3
 centroids, clusterAssment = kmeans(dataSet,k,1)
 
 ## step 3: show the result  
